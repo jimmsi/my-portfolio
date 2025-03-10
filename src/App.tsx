@@ -4,11 +4,15 @@ import About from './components/About';
 import Projects from './components/Projects';
 import CV from './components/CV';
 import Contact from './components/Contact';
+import HeroSection from './components/HeroSection';
 
 const App: React.FC = () => {
     return (
         <div className="scroll-smooth">
             <Navbar />
+            <section id="hero-section">
+                <HeroSection />
+            </section>
             <section id="about">
                 <About />
             </section>
